@@ -56,7 +56,13 @@
     color:white;
     text-decoration: none;
 }
-
+.navhover:hover{
+    display:grid;
+    flex-direction: row;
+}
+.navhovericons{
+    display:flex;
+}
 
 .p1 :hover{
     background-color: purple;
