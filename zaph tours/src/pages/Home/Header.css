@@ -3,6 +3,7 @@
     flex-direction: row;
     max-width: 100%;
     justify-content: center;
+    height:7vh;
     /* height: 100%; */
     
     /* flex-direction: row; */
@@ -11,6 +12,7 @@
 .orange{
     background-color: orangered;
     align-items: left
+    color: orangered;
 }
 .topleft{
     border:3px solid green;
