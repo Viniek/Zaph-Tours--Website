@@ -112,12 +112,19 @@
     align-items: center;
     flex-direction: column;
     z-index: 1000; 
+    
 }
 .navdestinations{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    margin-left:20rem;
+    gap:20px;
+    font-size:medium;
 }
+.navdestinations li{
+    text-decoration: none;
+}
+
 
 .nav:hover .navhover {
     display: flex;
