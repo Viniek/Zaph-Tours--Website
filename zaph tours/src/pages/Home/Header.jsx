@@ -36,14 +36,14 @@ return(
                 <img src="./src/assets/gmail.png"/>
                 njerivictory52@gmail.com
                 <div className="navhoverlist">
-                    <ol className="navdestinations">
+                    <ul className="navdestinations">
                         <li>Mt. Kenya</li>
                         <li>Mt. Ruwenzori</li>
                         <li>Lake Nakuru</li>
                         <li>Tsavo National Park</li>
                         <li>Nairobi national park</li>
                         <li> Coastal Kenya</li>
-                    </ol>
+                    </ul>
                     </div>
                 </div>
             </div>
