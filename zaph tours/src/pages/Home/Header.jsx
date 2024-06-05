@@ -50,6 +50,12 @@ return(
         </div>
     </div>
 </div>
+{/* body */}
+<section className="body">
+    <div className="video">
+        <p><i>Discover The charm of unexplored destinations</i></p>
+    </div>
+</section>
 </>
 )
 }
