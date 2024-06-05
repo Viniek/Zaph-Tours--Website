@@ -1,4 +1,4 @@
-.Header1{
+.header{
     display: flex;
     justify-content: right;
     gap:5rem;
@@ -7,20 +7,23 @@
     align-items: center;
     color:rgba(255,255,255);
 }
-.Header1 a{
+.header a{
     color:white;
     text-decoration: none;
 }
-.Header1 :hover{
+.p1 :hover{
     background-color: purple;
     padding:10px;
     border-radius:10%;
+    color:orange;
 }
-p2{
+.p2{
     background-color: purple;
+    color:orange;
     min-height: 4rem;
     display:flex;
     flex-direction: row;
    justify-content: center;
-   
+   padding-top: 1%;
+   padding-right: 10px;
 }
