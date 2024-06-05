@@ -13,5 +13,14 @@
 }
 .Header1 :hover{
     background-color: purple;
-    padding:20px;
+    padding:10px;
+    border-radius:10%;
+}
+p2{
+    background-color: purple;
+    min-height: 4rem;
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   
 }
