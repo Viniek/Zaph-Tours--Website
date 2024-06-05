@@ -2,7 +2,7 @@ import Home from "./pages/Home/Home";
 function App() {
   return (
     <>
-      <p>vee</p>
+      <h1></p>
       <Home/>
     </>
   )
