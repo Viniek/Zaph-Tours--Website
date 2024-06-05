@@ -17,23 +17,26 @@
     margin-top: .8%;
 }
 .topleft{
-    
+    display:flex;
+    flex-direction: row;
     border:3px solid green;
     padding:3rem;
     padding-top:0.1%;
     justify-content: center;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    
 
 }
 .topleft img{
-    padding-
+    margin-bottom: %;
+    padding:2%;
 }
 
 
 .header{
     display: flex;
     justify-content:right;
-    gap:3rem;
+    gap:2.8rem;
     background-color:orangered;
     margin-top: .8%;
    height:10vh;
@@ -43,14 +46,11 @@
      /* margin-left:10rem; */
      
 }
-@media screen and (max-width:49.75em) {
-    .Top{
- 
-
-        height:4572px;
-   
-    }
-    
+.p2:hover{
+    background-color: orange;
+    color:white;
+    padding: 5px;
+    border-radius: 10%;
 }
 .header a{
     color:white;
@@ -75,9 +75,13 @@
    /* padding-top: 1%;
    padding-right: 10px; */
 }
-.p2:hover{
-    background-color: orange;
-    color:white;
+
+
+/* Responsiveness */
+@media screen and (max-width:49.75em) {
+    .Top{
+        height:4572px;   
+    }    
 }
 @media screen and (max-width: 46.875em) {
     .header{
