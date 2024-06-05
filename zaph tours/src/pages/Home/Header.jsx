@@ -30,11 +30,11 @@ return(
             <p>Embark on a journey with us and discover the world like never before!</p>
             <div className="navhovericons">
                 <img src="./src/assets/holidays.png"/>
-                Holidays
+                <p>Holidays</p>
                 <img src="./src/assets/phone.png"/>
-                +254743209259
+                <p>+254743209259</p>
                 <img src="./src/assets/gmail.png"/>
-                njerivictory52@gmail.com
+                <p>njerivictory52@gmail.com</p>
                 <div className="navhoverlist">
                     <ul className="navdestinations">
                         <li>Mt. Kenya</li>

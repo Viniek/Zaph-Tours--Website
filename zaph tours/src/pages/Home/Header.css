@@ -62,6 +62,7 @@
 }
 .navhovericons{
     display:flex;
+    flex-direction: row;
 }
 .navhover1{
     display:grid;
