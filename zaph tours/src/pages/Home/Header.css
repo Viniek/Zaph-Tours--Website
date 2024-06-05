@@ -1,16 +1,35 @@
+.Top{
+    display:flex ;
+    max-width: 100%;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* width:3rem; */
+}
+.topleft{
+    border:3px solid red;
+    margin-right:1rem;
+    margin-left:2rem;
+    padding-top: 3px;
+}
+
 .header{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     gap:3rem;
     background-color:orangered;
     min-height:4rem;
     align-items: center;
     color:rgba(255,255,255);
+    min-width: 90%;
+     /* margin-left:10rem; */
+     
 }
 .header a{
     color:white;
     text-decoration: none;
 }
+
+
 .p1 :hover{
     background-color: purple;
     padding:10px;
@@ -27,7 +46,7 @@
    padding-top: 1%;
    padding-right: 10px;
 }
-.p2 :hover{
+.p2:hover{
     background-color: orange;
     color:white;
 }
@@ -38,4 +57,3 @@
     }
   }
     
-}
