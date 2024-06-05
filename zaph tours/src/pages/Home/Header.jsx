@@ -18,7 +18,8 @@ return(
      <p className="p1"><a href="tours">Tours</a></p>
     <p className="p1"><a href="destination">Destinations</a></p>
     <p className="p1"><a href="contact us">Contact us</a></p>
-    <p className="p2">Call Us today:<a href="vee">+254743209259</a></p> 
+    <p className="p2">
+    <img src="./src/assets/phone.png"/>:<a href="vee">+254743209259</a></p> 
     </section>
     {/* nav bar */}
     <div className="nav">
@@ -28,6 +29,9 @@ return(
             <p>Embark on a journey with us and discover the world like never before!</p>
             <div className="navhovericons">
                 <img src="./src/assets/holidays.png"/>
+                <p>Holidays</p>
+                <img src="./src/assets/phone.png"/>
+                <p>+254743209259</p>
             </div>
         </div>
     </div>

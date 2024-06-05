@@ -67,7 +67,7 @@
 .p2{
     background-color: purple;
     color:orange;
-    /* min-height: 4rem; */
+    height:7vh;
     display:flex;
     flex-direction: row;
    justify-content: center;
