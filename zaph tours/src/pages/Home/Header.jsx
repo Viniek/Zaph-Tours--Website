@@ -9,7 +9,6 @@ return(
     <section className="orange">
         <p>ppppp</p>
     </section> 
-  
     <section className="topleft">
         <img src="./src/assets/header.png"></img>
         <p>Exemplary <br/>Tours</p>
@@ -21,7 +20,9 @@ return(
     <p className="p1"><a href="contact us">Contact us</a></p>
     <p className="p2">Call Us today:<a href="vee">+254743209259</a></p> 
     </section>
-   
+    <div className="nav">
+        <img src="./src/assets/nav.png"/>
+    </div>
 </div>
 </>
 )
