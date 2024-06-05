@@ -38,7 +38,10 @@ return(
                     <ol className="navdestinations">
                         <li>Mt. Kenya</li>
                         <li>Mt. Ruwenzori</li>
-                        <li></li>
+                        <li>Lake Nakuru</li>
+                        <li>Tsavo National Park</li>
+                        <li>Nairobi national park</li>
+                        <li> Coastal Kenya</li>
                     </ol>
                 </div>
             </div>
