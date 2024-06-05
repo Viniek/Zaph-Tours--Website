@@ -78,10 +78,11 @@
    padding-right: 10px; */
 }
 .navhover{
-    
+    display: none;
 }
 .navhover :hover{
     display: flex;
+    display: cover;
     
 }
 
