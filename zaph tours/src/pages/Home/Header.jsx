@@ -36,6 +36,8 @@ return(
                 njerivictory52@gmail.com
                 <div className="navhoverlist">
                     <ol className="navdestinations">
+                        <li>Mt. Kenya</li>
+                        <li>Mt. Ruwenzori</li>
                         <li></li>
                     </ol>
                 </div>
