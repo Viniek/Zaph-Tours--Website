@@ -146,7 +146,44 @@
 
 /* section body */
 .video{
-    background-clip: ;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: no-repeat;
+    background-size: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.video-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.video-overlay p {
+    font-size: 1.5rem;
 }
 
 /* Responsiveness */

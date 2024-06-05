@@ -8,11 +8,12 @@ import navImage from '../../assets/nav.png';
 import phoneIcon from '../../assets/phone.png';
 import holidaysIcon from '../../assets/holidays.png';
 import gmailIcon from '../../assets/gmail.png';
+import backgroundVideo from '../../assets/home.mp4';
 
 function Header() {
     return (
         <>
-            {/* navigation bar */}
+            {/* whole navigation bar */}
             <div className="Top">
                 <section className="orange">
                     <p>ppppp</p>
@@ -61,8 +62,13 @@ function Header() {
             </div>
             {/* body */}
             <section className="body">
-                <div className="video">
+                <div className="video">                
+                <video autoPlay muted loop className="background-video">
+                    <source src={backgroundVideo} type="video/mp4" />
                     <p><i>Discover The charm of unexplored destinations</i></p>
+                </video>
+            
+                    
                 </div>
             </section>
         </>
