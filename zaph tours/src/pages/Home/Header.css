@@ -27,3 +27,7 @@
    padding-top: 1%;
    padding-right: 10px;
 }
+.p2 :hover{
+    background-color: orange;
+    color:white;
+}
