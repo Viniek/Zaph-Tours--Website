@@ -1,15 +1,22 @@
 .Top{
     display:flex ;
+    flex-direction: row;
     max-width: 100%;
     justify-content: center;
+    /* height: 100%; */
+    
     /* flex-direction: row; */
     /* width:3rem; */
 }
+.orange{
+    background-color: orangered;
+    align-items: left
+}
 .topleft{
-    border:3px solid red;
-    margin-right:1rem;
-    margin-left:2rem;
-    padding-top: 3px;
+    border:3px solid green;
+    padding:1rem;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+
 }
 
 .header{
@@ -17,12 +24,21 @@
     justify-content: center;
     gap:3rem;
     background-color:orangered;
-    min-height:4rem;
+   
     align-items: center;
     color:rgba(255,255,255);
-    min-width: 90%;
+    min-width: 85%;
      /* margin-left:10rem; */
      
+}
+@media screen and (max-width:49.75em) {
+    .Top{
+ 
+
+        height:4572px;
+   
+    }
+    
 }
 .header a{
     color:white;
@@ -39,12 +55,13 @@
 .p2{
     background-color: purple;
     color:orange;
-    min-height: 4rem;
+    /* min-height: 4rem; */
     display:flex;
     flex-direction: row;
    justify-content: center;
-   padding-top: 1%;
-   padding-right: 10px;
+   padding: 5px 5px;
+   /* padding-top: 1%;
+   padding-right: 10px; */
 }
 .p2:hover{
     background-color: orange;

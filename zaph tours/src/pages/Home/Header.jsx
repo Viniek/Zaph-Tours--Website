@@ -4,11 +4,18 @@ import { Link } from "react-router-dom";
 function Header(){
 return(
 <>
-
+{/* navigation bar */}
 <div className="Top">
+    {/* section orange */}
+    <section className="orange">
+        <p>ppppp</p>
+    </section>
+    {/* section topleft */}
     <section className="topleft">
+        <img src="./src/assets/header.png"></img>
         <p>Exemplary <br/>Tours</p>
     </section>
+    {/* section header */}
     <section className="header">
     <p className="p1"><a href="/home">Home</a></p> 
      <p className="p1"><a href="tours">Tours</a></p>
