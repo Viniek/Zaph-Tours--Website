@@ -3,7 +3,7 @@
     flex-direction: row;
     max-width: 100%;
     justify-content: center;
-    height:7vh;
+    height:16vh;
     /* height: 100%; */
     
     /* flex-direction: row; */
@@ -11,22 +11,32 @@
 }
 .orange{
     background-color: orangered;
-    align-items: left
-    color: orangered;
+    align-items: left;
+    height:10vh;
+    color:orangered;
+    margin-top: .8%;
 }
 .topleft{
+    
     border:3px solid green;
-    padding:1rem;
+    padding:3rem;
+    padding-top:0.1%;
+    justify-content: center;
     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 
 }
+.topleft img{
+    padding-
+}
+
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content:right;
     gap:3rem;
     background-color:orangered;
-   
+    margin-top: .8%;
+   height:10vh;
     align-items: center;
     color:rgba(255,255,255);
     min-width: 85%;
