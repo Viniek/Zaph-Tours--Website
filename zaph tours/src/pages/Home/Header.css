@@ -1,0 +1,9 @@
+.Header1{
+    display: flex;
+    justify-content: right;
+    gap:5rem;
+    background-color:orangered;
+    min-height:4rem;
+    align-items: center;
+    color:rgba(255,255,255);
+}
