@@ -63,6 +63,9 @@
 .navhovericons{
     display:flex;
 }
+.navhover1{
+    display:grid;
+}
 
 .p1 :hover{
     background-color: purple;

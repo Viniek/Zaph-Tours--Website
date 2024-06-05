@@ -25,6 +25,7 @@ return(
     <div className="nav">
         <img src="./src/assets/nav.png"/>
         <div className="navhover">
+            <div className="navhover1">
             <h1>Your gateway to unforgettable adventures and breathtaking destinations!</h1>
             <p>Embark on a journey with us and discover the world like never before!</p>
             <div className="navhovericons">
@@ -43,6 +44,7 @@ return(
                         <li>Nairobi national park</li>
                         <li> Coastal Kenya</li>
                     </ol>
+                    </div>
                 </div>
             </div>
         </div>
