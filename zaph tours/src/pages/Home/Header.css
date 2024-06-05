@@ -1,7 +1,7 @@
 .header{
     display: flex;
     justify-content: right;
-    gap:5rem;
+    gap:3rem;
     background-color:orangered;
     min-height:4rem;
     align-items: center;
@@ -30,4 +30,12 @@
 .p2 :hover{
     background-color: orange;
     color:white;
+}
+@media screen and (max-width: 46.875em) {
+    .header{
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+    
 }
