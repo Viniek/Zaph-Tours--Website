@@ -34,6 +34,11 @@ return(
                 +254743209259
                 <img src="./src/assets/gmail.png"/>
                 njerivictory52@gmail.com
+                <div className="navhoverlist">
+                    <ol className="navdestinations">
+                        <li></li>
+                    </ol>
+                </div>
             </div>
         </div>
     </div>
