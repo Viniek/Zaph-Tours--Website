@@ -77,14 +77,50 @@
    /* padding-top: 1%;
    padding-right: 10px; */
 }
-.navhover{
-    display: none;
+
+.orange, .topleft, .header {
+    transition: opacity 0.3s;
 }
-.navhover :hover{
-    display: flex;
-    display: cover;
+.nav {
+    position: relative;
     
 }
+
+.nav img {
+    cursor: pointer;
+}
+
+.navhover {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000; 
+}
+
+.nav:hover .navhover {
+    display: flex;
+}
+
+.navhover:hover {
+    display: flex; 
+    background-color: navy;
+    color:gold;
+}
+
+.nav:hover ~ .orange,
+.nav:hover ~ .topleft,
+.nav:hover ~ .header {
+    opacity: 0;
+}
+
 
 
 /* Responsiveness */
