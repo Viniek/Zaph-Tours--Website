@@ -70,6 +70,26 @@ function Header() {
             
                     
                 </div>
+                {/* testimonies */}
+                <section className='testimonies'>
+                    <div  className='T3'>
+                    <div className="T1"> <h1>Jonathan Muiruri</h1> </div>
+                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
+                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
+                      </div>
+
+                        <div className='T3'>
+                        <div className="T1"> <h1>Prudence Wanjiku</h1> </div>
+                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
+                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
+                         </div>
+
+                         <div className='T3'>
+                        <div className="T1"> <h1>Hazael Mungai</h1> </div>
+                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
+                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
+                       </div>
+              </section>
             </section>
         </>
     );

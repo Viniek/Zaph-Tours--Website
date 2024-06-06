@@ -28,7 +28,7 @@
 
 }
 .topleft img{
-    margin-bottom: %;
+    /* margin-bottom: %; */
     padding:2%;
 }
 
@@ -150,13 +150,18 @@
 .video{
     display: flex;
     flex-direction: row;
-    margin-left: 9rem;
-
-    
+    margin-left: 9rem;  
     
 }
-
-
+/* Testimonies */
+.testimonies{
+    display:flex;
+    flex-direction: row;
+}
+.T1{
+    background-color: orangered;
+    color:white;
+}
 /* Responsiveness */
 @media screen and (max-width:49.75em) {
     .Top{
