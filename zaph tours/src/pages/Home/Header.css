@@ -252,8 +252,8 @@
 /* about */
 .big{
     position:relative;
-    width:300vb;
-    height:200vh;
+    width:100vb;
+    height:70vh;
 }
 
 .background_image{
@@ -263,11 +263,12 @@
 .overlay_image{
     
     position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
-    transform: translate(-50%, -50%); /* Center the overlay image */
-    width: 100px; /* Set the width of your overlay image */
-    height: 100px;
+    top: 20%; 
+    left: 50%; 
+    right:30%;
+    transform: translate(-19%, -12%); 
+    width: 60vb; 
+    height: 50vh;
 }
 
 
