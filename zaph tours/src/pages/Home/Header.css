@@ -162,6 +162,10 @@
     background-color: orangered;
     color:white;
 }
+.T3{
+    border:2px groove orangered;
+    gap:3rem;
+}
 /* Responsiveness */
 @media screen and (max-width:49.75em) {
     .Top{
