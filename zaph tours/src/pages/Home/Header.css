@@ -151,7 +151,16 @@
     display: flex;
     flex-direction: row;
     margin-left: 9rem;  
+    width: 100vh;
+    height: 60vh;
+    border: 2px solid black;
     
+}
+.vid{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 }
 /* Testimonies */
 .testimonies{
@@ -162,10 +171,17 @@
 .T1{
     background-color: orangered;
     color:white;
+    padding:1rem;
+   padding-left: 7rem;
+
+}
+.T2{
+    border-radius: 20%;
 }
 .T3{
     border:2px groove orangered;
-
+    border-radius: 5%;
+    margin-top: 30px;
 }
 /* Responsiveness */
 @media screen and (max-width:49.75em) {

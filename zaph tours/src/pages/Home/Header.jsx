@@ -64,7 +64,7 @@ function Header() {
             <section className="body">
                 <div className="video">                
                 <video autoPlay muted loop className="background-video">
-                    <source src={backgroundVideo} type="video/mp4" />
+                    <source src={backgroundVideo} type="video/mp4" className='vid' />
                     <p><i>Discover The charm of unexplored destinations</i></p>
                 </video>
             
