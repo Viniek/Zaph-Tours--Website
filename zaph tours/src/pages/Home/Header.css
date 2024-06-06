@@ -157,6 +157,7 @@
 .testimonies{
     display:flex;
     flex-direction: row;
+    gap:2rem;
 }
 .T1{
     background-color: orangered;
@@ -164,7 +165,7 @@
 }
 .T3{
     border:2px groove orangered;
-    gap:3rem;
+
 }
 /* Responsiveness */
 @media screen and (max-width:49.75em) {
