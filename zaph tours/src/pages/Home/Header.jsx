@@ -9,6 +9,8 @@ import phoneIcon from '../../assets/phone.png';
 import holidaysIcon from '../../assets/holidays.png';
 import gmailIcon from '../../assets/gmail.png';
 import backgroundVideo from '../../assets/home.mp4';
+import bigimage  from  '../../assets/big.jpeg';
+import small from '../../assets/rhino.jpeg';
 
 function Header() {
     return (
@@ -60,15 +62,21 @@ function Header() {
                     </div>
                 </div>
             </div>
-            {/* body */}
+            {/* hero */}
             <section className="body">
-                <div className="video">                
-                <video autoPlay muted loop className="background-video">
-                    <source src={backgroundVideo} type="video/mp4" />
-                    <p><i>Discover The charm of unexplored destinations</i></p>
-                </video>
-            
-                    
+                <div className="video">
+                    <video className="background-video" autoPlay loop muted>
+                        <source src={backgroundVideo} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <div className="video-overlay">
+                        <p><i>Discover The charm of unexplored destinations</i></p>
+                    </div>
+                </div>
+            </section>
+            <section className='icons'>
+                <div className="big">
+                    <img src={bigimage} alt='big'/>
                 </div>
             </section>
             <section className='Testimonies'>
