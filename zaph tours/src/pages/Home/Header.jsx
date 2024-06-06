@@ -76,7 +76,8 @@ function Header() {
             </section>
             <section className='icons'>
                 <div className="big">
-                    <img src={bigimage} alt='big'/>
+                    <img src={bigimage} alt='big' className='background_image'/>
+                        <img src={small} alt="small" className='overlay_image'/>                    
                 </div>
             </section>
             <section className='Testimonies'>
