@@ -64,32 +64,36 @@ function Header() {
             <section className="body">
                 <div className="video">                
                 <video autoPlay muted loop className="background-video">
-                    <source src={backgroundVideo} type="video/mp4" className='vid' />
+                    <source src={backgroundVideo} type="video/mp4" />
                     <p><i>Discover The charm of unexplored destinations</i></p>
                 </video>
             
                     
                 </div>
-                {/* testimonies */}
-                <section className='testimonies'>
-                    <div  className='T3'>
-                    <div className="T1"> <h1>Jonathan Muiruri</h1> </div>
-                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
-                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
-                      </div>
+            </section>
+            <section className='Testimonies'>
+                <div className='person'>
+                    <h1>Jonathan Muiruri</h1>
+                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
+                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum, quasi inventore rem!</p1>
+                </div>
 
-                        <div className='T3'>
-                        <div className="T1"> <h1>Prudence Wanjiku</h1> </div>
-                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
-                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
+                <div className='person'>
+                    <h1>Prudence Wanjiku</h1>
+                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
+                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum,
+                         quasi inventore rem!</p1>
                          </div>
 
-                         <div className='T3'>
-                        <div className="T1"> <h1>Hazael Mungai</h1> </div>
-                    <div className='T2'><p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam dicta facere laudantium, laborum tempora labore voluptatum amet odit 
-                        explicabo suscipit accusantium autem quia, in aliquam, eaque nam possimus distinctio ducimus?</p1></div>
-                       </div>
-              </section>
+                         <div className='person'>
+                    <h1>Hazael Mungai</h1>
+                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
+                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum, quasi inventore rem!</p1>
+                </div>
+                
             </section>
         </>
     );

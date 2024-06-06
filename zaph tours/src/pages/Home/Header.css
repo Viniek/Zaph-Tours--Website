@@ -106,23 +106,21 @@
     position: fixed;
     top: 0;
     left: 0;
-    margin-top:1%;
-    width: 100%;    
-    background-color: blue; 
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
     color: white;
     justify-content: center;
     align-items: center;
-    flex-direction:  column;
+    flex-direction: column;
     z-index: 1000; 
-    color:gold;
     
 }
 .navdestinations{
     display:flex;
     flex-direction: column;
-    margin-left:12rem;
-    
-    gap:1px;
+    margin-left:20rem;
+    gap:10px;
     font-size:medium;
 }
 .navdestinations li{
@@ -148,41 +146,72 @@
 
 /* section body */
 .video{
-    display: flex;
-    flex-direction: row;
-    margin-left: 9rem;  
-    width: 100vh;
-    height: 60vh;
-    border: 2px solid black;
-    
-}
-.vid{
+    position: relative;
+    height: 100vh;
     width: 100%;
-    height: 100%;
-    display: block;
-    object-fit: cover;
+    overflow: hidden;
 }
-/* Testimonies */
-.testimonies{
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    background: no-repeat;
+    background-size: cover;
+}
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.video-overlay h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.video-overlay p {
+    font-size: 1.5rem;
+}
+.Testimonies{
     display:flex;
     flex-direction: row;
     gap:2rem;
 }
-.T1{
-    background-color: orangered;
+.person{
+    
     color:white;
-    padding:1rem;
-   padding-left: 7rem;
+    display:flex;
+    flex-direction: column;
+    
+}
+.person p1{
+    border:1px solid orangered;
+    color:black;
+    padding:2rem;
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+}
+.person h1{
+    background-color: orangered;
+    margin-bottom: 1px;
+    padding:2rem;
+}
 
-}
-.T2{
-    border-radius: 20%;
-}
-.T3{
-    border:2px groove orangered;
-    border-radius: 5%;
-    margin-top: 30px;
-}
+
+
 /* Responsiveness */
 @media screen and (max-width:49.75em) {
     .Top{
