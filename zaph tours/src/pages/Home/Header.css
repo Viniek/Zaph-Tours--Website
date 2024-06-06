@@ -254,6 +254,7 @@
     position:relative;
     width:100vb;
     height:70vh;
+    
 }
 
 .background_image{
@@ -269,6 +270,15 @@
     transform: translate(-19%, -12%); 
     width: 60vb; 
     height: 50vh;
+}
+/* about us */
+.about_us{
+    display:flex;
+    flex-direction:row;
+  
+}
+.about_us_right{
+   padding:2rem; 
 }
 
 
