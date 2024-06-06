@@ -252,7 +252,7 @@
 /* about */
 .big{
     position:relative;
-    width:100vb;
+    width:50%;
     height:70vh;
     
 }
@@ -278,8 +278,10 @@
   
 }
 .about_us_right{
-   padding:1rem;
+   width: 50%;
+   padding-left: 4rem;
    padding-top: 10%;
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
 }
 
 

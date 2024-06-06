@@ -9,8 +9,8 @@ import phoneIcon from '../../assets/phone.png';
 import holidaysIcon from '../../assets/holidays.png';
 import gmailIcon from '../../assets/gmail.png';
 import backgroundVideo from '../../assets/home.mp4';
-import bigimage  from  '../../assets/big.jpeg';
-import small from '../../assets/rhino.jpeg';
+import bigimage  from  '../../assets/nature.jpeg';
+import small from '../../assets/rhino.jpg';
 
 function Header() {
     return (
