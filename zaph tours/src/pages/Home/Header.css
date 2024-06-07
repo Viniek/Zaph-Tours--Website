@@ -136,6 +136,7 @@
     display: flex; 
     background-color: navy;
     color:gold;
+    
 }
 
 .nav:hover ~ .orange,
@@ -313,7 +314,7 @@
    
 }
 .kenya img{
- 
+   
 }
 
 
