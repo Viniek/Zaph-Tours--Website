@@ -142,7 +142,7 @@ function Header() {
 
     <div className='kilimanjaro'>
     <div className='viewimg'>
-    <img src={mtkenya} alt="mountain"/>
+    <img src={mtkilimanjaro} alt="mountain"/>
     </div>
     <p className='viewtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto 
         quasi harum possimus cum necessitatibus, laudantium id voluptate illum cupiditate. Lorem ipsum 
