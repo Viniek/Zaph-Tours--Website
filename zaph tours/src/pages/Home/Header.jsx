@@ -140,9 +140,17 @@ function Header() {
             {/* view sites */}
 <section className='viewsites'>
 
+ <section className='viewsites1'>   
    <div className='kenya'></div>
    <div className='tsavo'></div>
    <div className='nakuru'></div>
+</section>
+
+<section className='viewsites2'>
+   <div className='ruwenzori'></div>
+   <div className='nairobi'></div>
+   <div className='coast'></div>
+</section>
 </section>
 
         </>
