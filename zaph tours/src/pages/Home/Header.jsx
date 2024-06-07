@@ -17,7 +17,7 @@ import nakuruicon from'../../assets/lake.png';
 import tsavoicon from '../../assets/tsavo.png';
 import nairobiicon from '../../assets/nairobi.png';
 import coasticon from '../../assets/coast.png';
-import mtkenya from '../../assets/mtkenya.png';
+import mtkenya from '../../assets/mtkenya.jpg';
 import mtkilimanjaro from '../../assets/mtkilimanjaro.jpg';
 import lakenakuru from '../../assets/nakuru.jpg';
 import coast from '../../assets/coast.jpg';
