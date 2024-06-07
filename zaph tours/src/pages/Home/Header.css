@@ -249,6 +249,12 @@
 .video-overlay p {
     font-size: 1.5rem;
 }
+
+/* icons */
+.icons{
+    display:flex;
+}
+
 /* about */
 .big{
     position:relative;
