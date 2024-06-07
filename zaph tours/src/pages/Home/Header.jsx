@@ -11,6 +11,11 @@ import gmailIcon from '../../assets/gmail.png';
 import backgroundVideo from '../../assets/home.mp4';
 import bigimage  from  '../../assets/nature.jpeg';
 import small from '../../assets/rhino.jpg';
+import kenyaicon from '../../assets/mt.kenya.png'
+import kilimanjaroicon from '../../assets/mt.kilimanjaro.png';
+import nakuruicon from'../../assets/lake.png';
+import tsavoicon from '../../assets/tsavo.png';
+import nairobiicon from '../../assets/nairobi.png';
 
 function Header() {
     return (
@@ -77,7 +82,10 @@ function Header() {
 
             {/* Icons */}
             <div className='icons'>
-                
+                <img src={kenyaicon}alt="mt.Kenya"/>
+                <img src={kilimanjaroicon}alt="mt.Kilimanjaro"/>
+                <img src={nairobiicon}alt="nairobi"/>
+                <img src={nakuruicon}alt="nakuru"/>
             </div>
         
             {/* about us */}
