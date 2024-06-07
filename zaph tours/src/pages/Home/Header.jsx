@@ -84,8 +84,9 @@ function Header() {
             <div className='icons'>
                 <img src={kenyaicon}alt="mt.Kenya"/>
                 <img src={kilimanjaroicon}alt="mt.Kilimanjaro"/>
-                <img src={nairobiicon}alt="nairobi"/>
                 <img src={nakuruicon}alt="nakuru"/>
+                <img src={nairobiicon}alt="nairobi"/>
+               
             </div>
         
             {/* about us */}
