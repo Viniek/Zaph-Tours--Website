@@ -253,6 +253,7 @@
 /* icons */
 .icons{
     display:flex;
+    flex-direction: row;
 }
 
 /* about */
