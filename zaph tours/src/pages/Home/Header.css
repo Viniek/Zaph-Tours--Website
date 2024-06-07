@@ -295,19 +295,21 @@
    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
 }
 
-/* view point */
 .viewsites{
-    display:grid;
+    border:2px solid orangered;
+    
 }
-.viewsites1, .viewsites2{
-    display:flex;
+.viewsites1{
+    display: flex;
+    gap:2rem;
+    
 }
 .kenya{
-  display:grid;
-  border:2px solid orangered;
-  
+    display:flex;
+    flex-direction: column;
+    border:2px solid orangered;
+    width:33.33%;
 }
-
 
 
 /* Responsiveness */
