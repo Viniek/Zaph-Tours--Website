@@ -298,7 +298,12 @@
 }
 
 /* view point */
-
+.viewsites{
+    display:grid;
+}
+.viewsites1, .viewsites2{
+    display:flex;
+}
 
 
 
