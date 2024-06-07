@@ -19,6 +19,10 @@ import nairobiicon from '../../assets/nairobi.png';
 import coasticon from '../../assets/coast.png';
 import mtkenya from '../../assets/mt.Kenya.jpeg';
 import mtkilimanjaro from '../../assets/mt.Kilimanjaro.jpeg';
+import lakenakuru from '../../assets/lake Nakuru.webp';
+import coast from '../../assets/coast.png';
+import tsavo from '../../assets/tsavo.png';
+import nairobipark from '../../assets/nairobi park.jpg';
 
 function Header() {
     return (
