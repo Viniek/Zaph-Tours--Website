@@ -299,19 +299,30 @@
 
 /* view point */
 .kilimanjaro{
-    width:207vb;
+    width: 100%;
     border:3px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+
 }
-.viewimg{
+
+.kilimanjaro img{
+    width: 100%;
+}
+/* .viewimg{
     display:flex;
     flex-direction:row;
     height:50vh;
+    width
+} */
+/* .viewtext{
     width:50%;
-}
-.viewtext{
-    
-    
-}
+    float:right;
+
+} */
 
 
 

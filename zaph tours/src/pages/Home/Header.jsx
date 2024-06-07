@@ -138,14 +138,18 @@ function Header() {
                 
             </section>
             {/* view sites */}
-<section className='view sites'>
+<section className='viewsites'>
+
     <div className='kilimanjaro'>
-<div className='viewimg'>
+    <div className='viewimg'>
     <img src={mtkenya} alt="mountain"/>
+    </div>
     <p className='viewtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto 
         quasi harum possimus cum necessitatibus, laudantium id voluptate illum cupiditate. Lorem ipsum 
-        dolor sit amet consectetur, adipisicing elit. Sint, ratione.</p></div>
-</div>
+        dolor sit amet consectetur, adipisicing elit. Sint, ratione.</p>
+    
+    </div>
+
 </section>
 
         </>
