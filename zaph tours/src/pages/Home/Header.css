@@ -299,16 +299,17 @@
     border:2px solid orangered;
     
 }
-.viewsites1{
+.viewsites1 ,.viewsites2{
     display: flex;
     gap:2rem;
-    
+    justify-content: center;
 }
 .kenya{
     display:flex;
     flex-direction: column;
     border:2px solid orangered;
-    width:33.33%;
+    border-radius: 10%;
+    width:30%;
 }
 
 
