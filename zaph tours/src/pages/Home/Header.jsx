@@ -17,6 +17,8 @@ import nakuruicon from'../../assets/lake.png';
 import tsavoicon from '../../assets/tsavo.png';
 import nairobiicon from '../../assets/nairobi.png';
 import coasticon from '../../assets/coast.png';
+import mtkenya from '../../assets/mt.Kenya.jpeg';
+import mtkilimanjaro from '../../assets/mt.Kilimanjaro.jpeg';
 
 function Header() {
     return (
@@ -133,7 +135,7 @@ function Header() {
             </section>
             {/* view sites */}
 <section className='view sites'>
-    
+
 </section>
 
         </>
