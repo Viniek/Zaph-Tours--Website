@@ -254,7 +254,7 @@
 .icons{
     display:flex;
     flex-direction: row;
-    gap:2rem;
+    gap:8rem;
 }
 
 /* about */
