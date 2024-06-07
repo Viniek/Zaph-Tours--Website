@@ -85,6 +85,7 @@ function Header() {
                 <img src={kenyaicon}alt="mt.Kenya"/>
                 <img src={kilimanjaroicon}alt="mt.Kilimanjaro"/>
                 <img src={nakuruicon}alt="nakuru"/>
+                <img src={tsavoicon}alt="tsavo"/>
                 <img src={nairobiicon}alt="nairobi"/>
                
             </div>
