@@ -74,6 +74,12 @@ function Header() {
                     </div>
                 </div>
             </section>
+
+            {/* Icons */}
+            <div className='icons'>
+                
+            </div>
+        
             {/* about us */}
             <section className='about_us'>
                 <div className="big">
