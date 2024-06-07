@@ -17,11 +17,11 @@ import nakuruicon from'../../assets/lake.png';
 import tsavoicon from '../../assets/tsavo.png';
 import nairobiicon from '../../assets/nairobi.png';
 import coasticon from '../../assets/coast.png';
-import mtkenya from '../../assets/mt.Kenya.jpeg';
-import mtkilimanjaro from '../../assets/mt.Kilimanjaro.jpeg';
-import lakenakuru from '../../assets/lake Nakuru.webp';
-import coast from '../../assets/coast.png';
-import tsavo from '../../assets/tsavo.png';
+import mtkenya from '../../assets/mtkenya.png';
+import mtkilimanjaro from '../../assets/mtkilimanjaro.jpg';
+import lakenakuru from '../../assets/nakuru.jpg';
+import coast from '../../assets/coast.jpg';
+import tsavo from '../../assets/tsavo.jpg';
 import nairobipark from '../../assets/nairobi park.jpg';
 
 function Header() {
