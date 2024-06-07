@@ -88,7 +88,7 @@ function Header() {
                 <img src={nakuruicon}alt="nakuru"/>
                 <img src={tsavoicon}alt="tsavo"/>
                 <img src={nairobiicon}alt="nairobi"/>
-                <img src={coast}
+                <img src={coasticon}alt="coast"/>
                
             </div>
         
