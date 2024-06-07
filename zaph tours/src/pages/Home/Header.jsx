@@ -16,6 +16,7 @@ import kilimanjaroicon from '../../assets/mt.kilimanjaro.png';
 import nakuruicon from'../../assets/lake.png';
 import tsavoicon from '../../assets/tsavo.png';
 import nairobiicon from '../../assets/nairobi.png';
+import coasticon from '../../assets/coast.png';
 
 function Header() {
     return (
@@ -87,7 +88,7 @@ function Header() {
                 <img src={nakuruicon}alt="nakuru"/>
                 <img src={tsavoicon}alt="tsavo"/>
                 <img src={nairobiicon}alt="nairobi"/>
-                
+                <img src={coast}
                
             </div>
         
