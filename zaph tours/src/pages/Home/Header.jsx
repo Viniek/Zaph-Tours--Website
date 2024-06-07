@@ -139,16 +139,26 @@ function Header() {
             </section>
             {/* view sites */}
 <section className='viewsites'>
-
+{/* viewsites1 */}
  <section className='viewsites1'>   
+{/* kenya1 */}
+       <div className='kenya'>
+<img src={mtkenya}alt="mountain"/>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam 
+    alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi.</p>
+   </div>
+{/* kenya2 */}
    <div className='kenya'></div>
-   <div className='kenya'></div>
+   {/* kenya3 */}
    <div className='kenya'></div>
 </section>
-
+{/* viewsite2 */}
 <section className='viewsites2'>
+    {/* kenya4 */}
    <div className='kenya'></div>
+   {/* kenya5 */}
    <div className='kenya'></div>
+   {/* kenya6 */}
    <div className='kenya'></div>
 </section>
 </section>
