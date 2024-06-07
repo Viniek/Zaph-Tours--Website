@@ -140,16 +140,9 @@ function Header() {
             {/* view sites */}
 <section className='viewsites'>
 
-    <div className='kilimanjaro'>
-    <div className='viewimg'>
-    <img src={mtkilimanjaro} alt="mountain"/>
-    </div>
-    <p className='viewtext'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas architecto 
-        quasi harum possimus cum necessitatibus, laudantium id voluptate illum cupiditate. Lorem ipsum 
-        dolor sit amet consectetur, adipisicing elit. Sint, ratione.</p>
-    
-    </div>
-
+   <div className='kenya'></div>
+   <div className='tsavo'></div>
+   <div className='nakuru'></div>
 </section>
 
         </>
