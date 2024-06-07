@@ -256,6 +256,10 @@
     flex-direction: row;
     gap:8rem;
     justify-content: space-around;
+    
+}
+.icons img{
+
 }
 
 /* about */
