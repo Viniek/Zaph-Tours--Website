@@ -149,8 +149,8 @@ function Header() {
     enim iure in, commodi eligendi.</p>
    </div>
 {/* kenya2 */}
-   <div className='kenya'>
-    <img src={mtkilimanjaro}alt="mountain"/>
+   <div className='kenya'>    
+    <img src={tsavo}alt="mountain"/>
    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam
      deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe
       cumque enim iure in, commodi eligendi.</p>
@@ -174,7 +174,7 @@ function Header() {
    </div>
    {/* kenya5 */}
    <div className='kenya'>
-   <img src={tsavo}alt="mountain"/>
+   <img src={mtkilimanjaro}alt="mountain"/>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
     deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
     enim iure in, commodi eligendi.</p>
