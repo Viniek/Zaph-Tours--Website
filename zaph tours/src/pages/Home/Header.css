@@ -298,10 +298,19 @@
 }
 
 /* view point */
+.kilimanjaro{
+    width:207vb;
+    border:3px solid red;
+}
 .viewimg{
     display:flex;
     flex-direction:row;
-    height:60vh;
+    height:50vh;
+    width:50%;
+}
+.viewtext{
+    
+    
 }
 
 
