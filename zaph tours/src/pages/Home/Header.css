@@ -310,7 +310,9 @@
 }
 
 .kilimanjaro img{
-    width: 100%;
+    width: 50%;
+    background-size: cover;
+    
 }
 /* .viewimg{
     display:flex;
