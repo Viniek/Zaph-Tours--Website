@@ -298,32 +298,7 @@
 }
 
 /* view point */
-.kilimanjaro{
-    width: 100%;
-    border:3px solid red;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
 
-}
-
-.kilimanjaro img{
-    background-size: cover;
-    
-}
-/* .viewimg{
-    display:flex;
-    flex-direction:row;
-    height:50vh;
-    width
-} */
-/* .viewtext{
-    width:50%;
-    float:right;
-
-} */
 
 
 

@@ -142,14 +142,14 @@ function Header() {
 
  <section className='viewsites1'>   
    <div className='kenya'></div>
-   <div className='tsavo'></div>
-   <div className='nakuru'></div>
+   <div className='kenya'></div>
+   <div className='kenya'></div>
 </section>
 
 <section className='viewsites2'>
-   <div className='ruwenzori'></div>
-   <div className='nairobi'></div>
-   <div className='coast'></div>
+   <div className='kenya'></div>
+   <div className='kenya'></div>
+   <div className='kenya'></div>
 </section>
 </section>
 
