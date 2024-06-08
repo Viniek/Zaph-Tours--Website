@@ -251,14 +251,7 @@
     font-size: 1.5rem;
 }
 
-/* icons */
-.icons{
-    display:flex;
-    flex-direction: row;
-    gap:8rem;
-    justify-content: space-around;
-    
-}
+
 
 
 /* about */
