@@ -1,2 +1,9 @@
 import "./Trips.css";
-export default Trips;
+
+function Trips() {
+  return (
+    <div>Trips</div>
+  )
+}
+
+export default Trips
