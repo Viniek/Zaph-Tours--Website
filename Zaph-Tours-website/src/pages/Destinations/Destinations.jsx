@@ -42,8 +42,8 @@ function Destination(){
                     <img src={lakenakuru}alt="lake"/>
                     <p>Experience the natural wonders of Lake Nakuru! Hike amidst stunning landscapes, vibrant flamingos, 
                         and diverse wildlife. Join us for an unforgettable adventure in this breathtaking Kenyan 
-                        gem!<br/>$20 per group<br/> $10per head<br/> <h1>Mt.Kilimanjaro</h1></p></div>
-                          <Link to="https://github.com/Viniek">Lake Nakuru</Link>
+                        gem!<br/>$20 per group<br/> $10per head<br/><Link to="https://github.com/Viniek">Lake Nakuru</Link></p></div>
+                          
                           <div className="tsavofooter"><h1>Lake Nakuru</h1></div>
                 </div>
          
