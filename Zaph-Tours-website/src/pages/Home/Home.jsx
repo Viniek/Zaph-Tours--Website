@@ -15,11 +15,12 @@ function Home(){
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, consequatur?</p>
         </div>
         <Hero />
-        <About/>
-        <Sites />
-        <Icons/>        
-        <Slides/>
+        <About/>      
         <Testimonials/>
+        <Icons/> 
+        <Sites />
+               
+        <Slides/>        
         <News/>
         </>
     )
