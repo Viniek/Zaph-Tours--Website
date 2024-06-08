@@ -1,4 +1,4 @@
-import './Viewsites.css';
+import "./Sites.css"
 import mtkenya from '../../assets/mtkenya.jpg';
 import mtkilimanjaro from '../../assets/mtkilimanjaro.jpg';
 import lakenakuru from '../../assets/nakuru.jpg';
@@ -6,12 +6,12 @@ import coast from '../../assets/coast.jpg';
 import tsavo from '../../assets/tsavo.jpg';
 import nairobipark from '../../assets/nairobi park.jpg';
 
-
-function Viewsites() {
+function Sites() {
   return (
-   <>
-               {/* view sites */}
-<section className='viewsites'>
+<>
+          
+            {/* view sites */}
+            <section className='viewsites'>
 {/* viewsites1 */}
  <section className='viewsites1'>   
 {/* kenya1 */}
@@ -60,10 +60,12 @@ function Viewsites() {
     enim iure in, commodi eligendi.</p>
    </div>
 </section>
+<section className='form'>
 
+    
 </section>
-   </>
+</section></>
   )
 }
 
-export default Viewsites
+export default Sites

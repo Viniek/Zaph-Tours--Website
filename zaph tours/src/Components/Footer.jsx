@@ -1,10 +1,9 @@
 
 import './Footer.css';
-
 function Footer(){
     return(
         <>
-        <p>vee</p>
+        <p>foooter</p>
         </>
     )
 }

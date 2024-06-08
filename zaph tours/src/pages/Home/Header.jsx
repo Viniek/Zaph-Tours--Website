@@ -2,13 +2,12 @@ import React from 'react';
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-
+// Corrected import paths
 import headerImage from '../../assets/header.png';
 import navImage from '../../assets/nav.png';
 import phoneIcon from '../../assets/phone.png';
 import holidaysIcon from '../../assets/holidays.png';
 import gmailIcon from '../../assets/gmail.png';
-
 
 function Header() {
     return (
@@ -31,7 +30,9 @@ function Header() {
                         <img src={phoneIcon} alt="Phone" /><a href="vee">+254743209259</a>
                     </p>
                 </section>
-                {/* nav bar */}
+
+
+               
                 <div className="nav">
                     <img src={navImage} alt="Nav" />
                     <div className="navhover">
@@ -59,23 +60,8 @@ function Header() {
                         </div>
                     </div>
                 </div>
-            </div>
-            {/* hero */}
-            <section className="body">
-                <div className="video">
-                    <video className="background-video" autoPlay loop muted>
-                        <source src={backgroundVideo} type="video/mp4" />
-                        Your browser does not support the video tag.
-                    </video>
-                    <div className="video-overlay">
-                        <p><i>Discover The charm of unexplored destinations</i></p>
-                    </div>
-                </div>
-            </section>
-
-           
-         
-
+            </div> 
+            
 
         </>
     );
