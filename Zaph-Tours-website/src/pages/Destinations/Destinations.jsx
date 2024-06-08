@@ -31,9 +31,10 @@ function Destination(){
                     <img src={mtkilimanjaro}alt="mountain"/>
                     <p>Discover the enchanting Ruwenzori Mountains! Hike through lush forests, marvel at glacial peaks, 
                         and encounter unique wildlife. Join us for an extraordinary adventure in this mystical African
-                         paradise!.<br/>$20 per group<br/> $10per head</p></div>
-                          <Link to="https://github.com/Viniek">Mt.Kilimanjaro</Link>
-                          <h1>Mt.Kilimanjaro</h1>
+                         paradise!.<br/>$20 per group<br/> $10per head <br/>
+                         <Link to="https://github.com/Viniek">Mt.Kilimanjaro</Link></p></div>
+                         
+                         <div className="tsavofooter"><h1>Mt.Kilimanjaro</h1></div> 
                 </div>
                 {/* 3 */}
                 <div className="tsavo">
@@ -41,9 +42,9 @@ function Destination(){
                     <img src={lakenakuru}alt="lake"/>
                     <p>Experience the natural wonders of Lake Nakuru! Hike amidst stunning landscapes, vibrant flamingos, 
                         and diverse wildlife. Join us for an unforgettable adventure in this breathtaking Kenyan 
-                        gem!<br/>$20 per group<br/> $10per head</p></div>
+                        gem!<br/>$20 per group<br/> $10per head<br/> <h1>Mt.Kilimanjaro</h1></p></div>
                           <Link to="https://github.com/Viniek">Lake Nakuru</Link>
-                          <h1>Lake Nakuru</h1>
+                          <div className="tsavofooter"><h1>Lake Nakuru</h1></div>
                 </div>
          
             </div>
