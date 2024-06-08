@@ -1,0 +1,26 @@
+.oucontactsection{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+.ourinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.oursocials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}

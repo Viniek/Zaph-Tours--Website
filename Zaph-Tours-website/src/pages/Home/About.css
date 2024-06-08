@@ -1,0 +1,48 @@
+.aboutcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    max-width: 100%;
+    margin-top: 3rem;
+
+    gap: 3rem;
+    padding: 1rem;
+}
+.aboutsection{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2.3rem;
+}
+
+.aboutheading{
+    font-size: 3rem;
+    text-transform: capitalize;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.favicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+    margin-top: 3rem;
+    fill: blue;
+
+}
+
+.faviconsitems{
+    color:var(--secondary_color);
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    align-items: center;
+    font-size: 2rem;
+}
+

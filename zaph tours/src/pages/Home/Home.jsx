@@ -8,13 +8,12 @@ import Sites from "./Sites";
 function Home(){
     return(
 <>
-<Header/>
 <Hero/>
 <Icons/>
 <About/>
 <Testimony/>
 <Sites/>
-<Footer/>
+
 
 </>
     )

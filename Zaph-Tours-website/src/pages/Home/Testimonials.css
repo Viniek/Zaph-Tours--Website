@@ -1,0 +1,46 @@
+.estimonyheading h2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+.testimonies{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 3rem;
+    gap: 2rem;
+
+}
+
+.actualtesmimony{
+    width: fit-content;
+    padding: 1rem;
+    border: 2px solid red;
+    line-height: 1.5rem;
+    
+}
+
+.testimony img{
+    width: 100%;
+    clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 0 1%);
+    
+}
+
+.testimony h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.title{
+    background-color: var(--secondary_color);
+    font-weight: 100;
+}

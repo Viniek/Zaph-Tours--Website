@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* 1rem = 10 px */
+}
+
+:root{
+  --primary_color:#3572EF;
+  --secondary_color:#3ABEF9;
+  --light_color:#A7E6FF;
+  --color_white:#FFFFFF;
+  --color_black:#000000;
+
+}

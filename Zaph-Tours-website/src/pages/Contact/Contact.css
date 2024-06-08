@@ -1,0 +1,112 @@
+.contactussection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    max-width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and(max-width:63.57em){
+    .contactussection {
+        gap: 0;
+        max-width: 90%;
+        padding: .8rem;
+        margin: 1rem;
+        justify-content: center;
+    }
+
+    .contactsection{
+        max-width: 80%;
+    }
+
+    .mapsection{
+        width: 20%;
+    }
+}
+    
+
+
+.contactsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    border: 2px solid var(--primary_color);
+    margin: .5rem;
+    box-shadow: 3px 6px 1px -1px rgba(40,24,217,0.75);
+-webkit-box-shadow: 3px 6px 1px -1px rgba(40,24,217,0.75);
+-moz-box-shadow: 3px 6px 1px -1px rgba(40,24,217,0.75);
+}
+
+.topinputs {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+}
+
+.topinputs input {
+    padding: .8rem;
+    margin-bottom: 1rem;
+    width: 100%; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.headingform{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 1rem;
+}
+
+#textarea {
+    width: 90%;
+    height: 200px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: both; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+    margin-right: 1rem;
+}
+
+.mapsection {
+    margin: 1rem;
+}
+
+.buttonsubmit {
+    padding:.9rem;
+    width: 17rem;
+    background-color: var(--primary_color);
+    color:var(--color_white);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    
+}
+
+.buttonsubmit:hover{
+    background-color: var(--secondary_color);
+    transition: all.8s ease;
+}

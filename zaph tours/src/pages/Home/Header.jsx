@@ -1,6 +1,7 @@
-import React from 'react';
+
 import "./Header.css";
-import { Link } from "react-router-dom";
+import Navheader from "./Navheader";
+
 
 // Corrected import paths
 import headerImage from '../../assets/header.png';
@@ -21,15 +22,14 @@ function Header() {
                     <img src={headerImage} alt="Header" />
                     <p>Exemplary <br />Tours</p>
                 </section>
-                <section className="header">
-                    <p className="p1"><a href="/home">Home</a></p>
-                    <p className="p1"><a href="/tours">Tours</a></p>
-                    <p className="p1"><a href="/destination">Destinations</a></p>
-                    <p className="p1"><a href="/contact us">Contact us</a></p>
-                    <p className="p2">
-                        <img src={phoneIcon} alt="Phone" /><a href="vee">+254743209259</a>
-                    </p>
-                </section>
+
+                <Navheader/>
+        <div>
+        <p className="p2">
+    <img src={phoneIcon} alt="Phone" /><a href="vee">+254743209259</a>
+</p>
+
+        </div>
 
 
                
