@@ -1,0 +1,21 @@
+/* viewsites */
+.viewsites{     
+    justify-content: space-between;
+}
+.viewsites1 ,.viewsites2{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+}
+.kenya{
+    display:flex;
+    flex-direction: column;
+    border:2px solid orangered;
+    /* border-radius: 10%; */
+    width:30%;
+    margin-top: 2rem;  
+   
+}
+.kenya img{
+   
+}

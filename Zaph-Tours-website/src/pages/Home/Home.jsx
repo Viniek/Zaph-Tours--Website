@@ -5,6 +5,8 @@ import Testimonials from "./Testimonials";
 import News from "./News";
 import Hero from "./Hero";
 import "./Home.css"
+import Sites from "./Sites";
+import Icons from "./Icons";
 function Home(){
     return(
         <>
@@ -14,6 +16,8 @@ function Home(){
         </div>
         <Hero />
         <About/>
+        <Sites />
+        <Icons/>        
         <Slides/>
         <Testimonials/>
         <News/>

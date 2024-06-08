@@ -1,6 +1,6 @@
-import "./Testimony.css"
+import "./Testimonials.css"
 
-function Testimony() {
+function Testimonials() {
   return (
     <div>
       <section className='Testimonies'>
@@ -31,4 +31,4 @@ function Testimony() {
   )
 }
 
-export default Testimony
+export default Testimonials
