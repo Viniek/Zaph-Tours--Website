@@ -1,0 +1,24 @@
+.Testimonies{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.person{
+    
+    color:white;
+    display:flex;
+    flex-direction: column;
+    
+}
+.person p1{
+    border:1px solid orangered;
+    color:black;
+    padding:2rem;
+    letter-spacing: 2px;
+    line-height: 1.8rem;
+}
+.person h1{
+    background-color: orangered;
+    margin-bottom: 1px;
+    padding:2rem;
+}

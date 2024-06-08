@@ -1,4 +1,12 @@
-{/* about us */}
+import './Aboutus.css'
+import bigimage  from  '../../assets/nature.jpeg';
+import small from '../../assets/rhino.jpg';
+
+
+function Aboutus() {
+  return (
+    <>
+    {/* about us */}
 <section className='about_us'>
  <div className="big">
      
@@ -13,3 +21,8 @@
            earum quibusdam.</p>
  </div>
 </section>
+    </>
+  )
+}
+
+export default Aboutus

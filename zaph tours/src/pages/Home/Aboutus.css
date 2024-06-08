@@ -1,0 +1,34 @@
+/* about */
+.big{
+    position:relative;
+    width:50%;
+    height:70vh;
+    
+}
+
+.background_image{
+   width:100%;
+   height:100%;
+}
+.overlay_image{
+    
+    position: absolute;
+    top: 20%; 
+    left: 50%; 
+    right:30%;
+    transform: translate(-19%, -12%); 
+    width: 60vb; 
+    height: 50vh;
+}
+/* about us */
+.about_us{
+    display:flex;
+    flex-direction:row;
+  
+}
+.about_us_right{
+   width: 50%;
+   padding-left: 4rem;
+   padding-top: 10%;
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}

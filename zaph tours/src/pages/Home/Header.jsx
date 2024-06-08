@@ -2,27 +2,13 @@ import React from 'react';
 import "./Header.css";
 import { Link } from "react-router-dom";
 
-// Corrected import paths
+
 import headerImage from '../../assets/header.png';
 import navImage from '../../assets/nav.png';
 import phoneIcon from '../../assets/phone.png';
 import holidaysIcon from '../../assets/holidays.png';
 import gmailIcon from '../../assets/gmail.png';
-import backgroundVideo from '../../assets/home.mp4';
-import bigimage  from  '../../assets/nature.jpeg';
-import small from '../../assets/rhino.jpg';
-import kenyaicon from '../../assets/mt.kenya.png'
-import kilimanjaroicon from '../../assets/mt.kilimanjaro.png';
-import nakuruicon from'../../assets/lake.png';
-import tsavoicon from '../../assets/tsavo.png';
-import nairobiicon from '../../assets/nairobi.png';
-import coasticon from '../../assets/coast.png';
-import mtkenya from '../../assets/mtkenya.jpg';
-import mtkilimanjaro from '../../assets/mtkilimanjaro.jpg';
-import lakenakuru from '../../assets/nakuru.jpg';
-import coast from '../../assets/coast.jpg';
-import tsavo from '../../assets/tsavo.jpg';
-import nairobipark from '../../assets/nairobi park.jpg';
+
 
 function Header() {
     return (
@@ -88,85 +74,8 @@ function Header() {
             </section>
 
            
-            <section className='Testimonies'>
-                <div className='person'>
-                    <h1>Jonathan Muiruri</h1>
-                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
-                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum, quasi inventore rem!</p1>
-                </div>
+         
 
-                <div className='person'>
-                    <h1>Prudence Wanjiku</h1>
-                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
-                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum,
-                         quasi inventore rem!</p1>
-                         </div>
-
-                         <div className='person'>
-                    <h1>Hazael Mungai</h1>
-                    <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Culpa dolorem sunt voluptatibus autem minima pariatur perferendis id. 
-                        Dolores totam eveniet suscipit quos quae! Accusamus tenetur assumenda eum, quasi inventore rem!</p1>
-                </div>
-                
-            </section>
-            {/* view sites */}
-<section className='viewsites'>
-{/* viewsites1 */}
- <section className='viewsites1'>   
-{/* kenya1 */}
-       <div className='kenya'>
-<img src={mtkenya}alt="mountain"/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
-    deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
-    enim iure in, commodi eligendi.</p>
-   </div>
-{/* kenya2 */}
-   <div className='kenya'>    
-    <img src={tsavo}alt="mountain"/>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam
-     deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe
-      cumque enim iure in, commodi eligendi.</p>
-   </div>
-   {/* kenya3 */}
-   <div className='kenya'>
-   <img src={lakenakuru}alt="mountain"/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
-    deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
-    enim iure in, commodi eligendi.</p>
-   </div>
-</section>
-{/* viewsite2 */}
-<section className='viewsites2'>
-    {/* kenya4 */}
-   <div className='kenya'>
-   <img src={coast}alt="mountain"/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
-    deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
-    enim iure in, commodi eligendi.</p>
-   </div>
-   {/* kenya5 */}
-   <div className='kenya'>
-   <img src={mtkilimanjaro}alt="mountain"/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
-    deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
-    enim iure in, commodi eligendi.</p>
-   </div>
-   {/* kenya6 */}
-   <div className='kenya'>
-   <img src={nairobipark}alt="mountain"/>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam 
-    deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque 
-    enim iure in, commodi eligendi.</p>
-   </div>
-</section>
-<section className='form'>
-
-    <label
-</section>
-</section>
 
         </>
     );
