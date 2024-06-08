@@ -2,8 +2,8 @@ function Topheader(){
     return(
         <div className="safaris">
             <div className="titles">
-            <h1>Best Safaris and Adventures</h1>
-            <p>Celebrating Excellence in Best African Safari Tours!</p>
+            <h1><i><b>ZAPH TOURS</b></i></h1>
+           
             </div>
         </div>
     )
