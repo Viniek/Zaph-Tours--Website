@@ -42,43 +42,46 @@ function Destination(){
                     <img src={lakenakuru}alt="lake"/>
                     <p>Experience the natural wonders of Lake Nakuru! Hike amidst stunning landscapes, vibrant flamingos, 
                         and diverse wildlife. Join us for an unforgettable adventure in this breathtaking Kenyan 
-                        gem!<br/>$20 per group<br/> $10per head<br/><Link to="https://github.com/Viniek">Lake Nakuru</Link></p></div>
-                          
-                          <div className="tsavofooter"><h1>Lake Nakuru</h1></div>
+                        gem!<br/>$20 per group<br/> $10per head</p></div>
+                        <Link to="https://github.com/Viniek">Lake Nakuru</Link>
+                          <h1>Lake Nakuru</h1>
                 </div>
          
             </div>
             <div className="destination2">
                        {/* 4 */}
                        <div className="tsavo">
-                       <div className="tsavocontent">
+                       
                     <img src={coast}alt="coast"/>
                     <p>
                     Explore the stunning Kenyan coast! Hike along pristine beaches, lush forests, and historic sites. 
                     Immerse yourself in breathtaking scenery and vibrant culture. Join us for an unforgettable coastal 
-                    adventure!.<br/>$20 per group<br/> $10per head</p></div>
-                          <Link to="https://github.com/Viniek">Coast</Link>
-                          <h1>Coast</h1>
+                    adventure!.<br/>$20 per group<br/> $10per head <br/>  <Link to="https://github.com/Viniek">Coast</Link></p>
+                        
+                     <h1>Coast</h1>
                 </div>
+                
+
+
                 {/* 5 */}
                 <div className="tsavo">
-                <div className="tsavocontent">
+              
                     <img src={tsavo}alt="mountain"/>
                     <p>
                     Discover the wild beauty of Tsavo! Hike through vast savannas, encounter majestic wildlife, and 
                     explore rugged landscapes. Join us for an exhilarating adventure in Kenya's largest 
-                    national park!.<br/>$20 per group<br/> $10per head</p></div>
-                          <Link to="https://github.com/Viniek">Tsavo</Link>
-                          <h1>Tsavo</h1>
+                    national park!.<br/>$20 per group<br/> $10per head </p>
+                    <Link to="https://github.com/Viniek">Tsavo</Link>
+                       <h1>Tsavo</h1>
                 </div>
                 {/* 6 */}
                 <div className="tsavo">
-                <div className="tsavocontent">
+               
                     <img src={nairobipark}alt="park"/>
                     <p>Experience the unique charm of Nairobi National Park! Hike through scenic landscapes, 
                         spot diverse wildlife, and enjoy stunning city views. Join us for an unforgettable 
-                        adventure right in Nairobi's backyard!.<br/>$20 per group<br/> $10per head</p></div>
-                          <Link to="https://github.com/Viniek">Narobi National Park</Link>
+                        adventure right in Nairobi's backyard!.<br/>$20 per group $10per head </p>
+                        <Link  to="https://github.com/Viniek">Narobi National Park</Link>
                           <h1>Nairobi National Park</h1>
                 </div>
             </div>

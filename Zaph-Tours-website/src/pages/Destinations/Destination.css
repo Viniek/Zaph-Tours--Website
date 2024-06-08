@@ -65,6 +65,9 @@
     width: 30rem;
     padding: 1rem;
     border: solid 2px;
+    box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
+-webkit-box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
+-moz-box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
 }
 
 .tsavocontent{
