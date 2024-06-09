@@ -182,15 +182,17 @@ display:none;
   }
       
   }
-  @media screen and (max-widt: 167.9375em) {
+  @media screen and (max-width: 167.9375em) {
     .nav_list{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
     }
-    .orange{
-      display:none;
-    }
-    .topleft{
-      display: none;
-    }
+  .p2{
+    margin-top:1.5rem;
+    padding:1rem;
+  }
+  .nav img{
+    margin-top: 3rem;
+  }
+   
   }
