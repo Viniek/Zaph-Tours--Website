@@ -41,32 +41,13 @@ function Bottomheader() {
                 </div>
                 <div className="nav">
                     <img src={navImage} alt="Nav" />
-                    <div className="navhover">
-                        <div className="navhover1">
-                            <h1>Your gateway to unforgettable adventures and breathtaking destinations!</h1>
-                            <p><i>Embark on a journey with us and discover the world like never before!</i></p>
-                            <div className="navhovericons">
-                                <img src={holidaysIcon} alt="Holidays" />
-                                <p>Holidays</p>
-                                <img src={phoneIcon} alt="Phone" />
-                                <p>+254743209259</p>
-                                <img src={gmailIcon} alt="Gmail" />
-                                <p>njerivictory52@gmail.com</p>
-                                <div className="navhoverlist">
-                                    <ul className="navdestinations">
-                                        <li>Mt. Kenya</li>
-                                        <li>Mt. Ruwenzori</li>
-                                        <li>Lake Nakuru</li>
-                                        <li>Tsavo National Park</li>
-                                        <li>Nairobi National Park</li>
-                                        <li>Coastal Kenya</li>
-                                    </ul>
+                    
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        
+                    
+            
+            
         </>
     );
 }
