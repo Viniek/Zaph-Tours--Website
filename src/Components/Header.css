@@ -210,5 +210,10 @@ display:none;
       padding-right:15rem;
     }
   }
+  @media screen and (max-width: 51.25em) {
+    .header{
+      padding-right:10rem;
+    }
+  }
    
   }
