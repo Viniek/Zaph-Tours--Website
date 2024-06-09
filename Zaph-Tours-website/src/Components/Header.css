@@ -57,6 +57,11 @@
   gap:1rem;
   background-color: orangered;
   padding-left: 20rem;
+  list-style: none;
+  
+}
+.nav_list li{
+  text-decoration: none;
 }
 .p2:hover{
   background-color: orange;

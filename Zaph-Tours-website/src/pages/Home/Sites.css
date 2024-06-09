@@ -18,19 +18,61 @@
     width: 100%; /* Change width to 100% */
     margin-top: 2rem;
     position: relative;
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    /* Copy code to element you want to animate */
+/* Copy code to element you want to animate */
+animation: customAni 2s ease 0s infinite normal none;
   }
-  @keyframes myAnim {
-	0% {
-		opacity: 1;
-		transform: scale(1);
-	}
+/* Copy this code after the above code */
+/* Copy this code after the above code */
+@keyframes customAni {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateX(48px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(26px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(13px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(6.5px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  
 
-	100% {
-		opacity: 0;
-		transform: scale(0.6);
-	}
-}
 
   .kenya.active {
     display: flex;

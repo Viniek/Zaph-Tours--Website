@@ -1,0 +1,8 @@
+.hero{
+    background-image: url('../../assets/toursimg.webp');
+    padding:8rem;
+    background-repeat: no-repeat;
+    width:300rem;
+    border:2px solid red;
+    
+}
