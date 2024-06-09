@@ -41,6 +41,9 @@
   color: rgba(255, 255, 255);
   min-width: 60%;
 }
+.nav{
+  margin-top: -35px;
+}
 
 .nav_list {
   display: flex;
@@ -121,6 +124,7 @@
 
 .nav {
   position: relative;
+  
 }
 
 .nav img {
