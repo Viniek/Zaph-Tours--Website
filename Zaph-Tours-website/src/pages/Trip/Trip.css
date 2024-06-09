@@ -6,3 +6,27 @@
     border:2px solid red;
     
 }
+
+/* HeroAlbum */
+
+.album{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-top: 2rem;
+}
+.album1{
+    border:1px solid orangered;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    border-radius: 5%;
+}
+.album2{
+    border:1px solid orangered;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    width:30%;
+}
