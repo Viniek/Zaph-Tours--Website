@@ -9,9 +9,7 @@ function News() {
         </section>
 
         <div className="subscribe">
-        {/* <section>
-            <img src={news} alt="Join us" />
-        </section> */}
+        
 
         <form className="form">
         <div className="formitem">

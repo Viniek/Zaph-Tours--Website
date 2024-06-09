@@ -178,6 +178,19 @@ display:none;
     flex-direction: row;
    justify-content: center;
    align-items: center; 
+
   }
       
+  }
+  @media screen and (max-widt: 167.9375em) {
+    .nav_list{
+      display: flex;
+      flex-direction: column;
+    }
+    .orange{
+      display:none;
+    }
+    .topleft{
+      display: none;
+    }
   }

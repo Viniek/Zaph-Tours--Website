@@ -25,12 +25,10 @@
 .form{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    /* border: 2px solid var(--primary_color); */
+    flex-direction: column;    
     width: 40%;
     padding: 2rem;
-    margin-right: 1rem;
-    /* padding-right: 1rem; */
+    margin-right: 1rem; 
     
 }
 
