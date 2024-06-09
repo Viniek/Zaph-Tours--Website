@@ -36,4 +36,11 @@
         display: none;
     }
 }
+@media screen and (max-width: 102.625em) {
+    .overlay_image{
+        display: none;
+    }
+}
+
+
 

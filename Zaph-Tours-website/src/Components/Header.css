@@ -169,3 +169,15 @@
   }
 }
 
+@media screen and (max-width: 102.625em) {
+  .p2{
+display:none;
+  }
+  .header{
+    display:flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center; 
+  }
+      
+  }
