@@ -194,5 +194,21 @@ display:none;
   .nav img{
     margin-top: 3rem;
   }
+  @media screen and (max-width: 23.4375em){
+    .orange{
+      display:none;
+    }
+    .topleft{
+      display:none;
+    }
+    .header{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap:.1px;
+      padding-right:15rem;
+    }
+  }
    
   }

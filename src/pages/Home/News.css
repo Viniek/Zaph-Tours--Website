@@ -69,3 +69,13 @@
     font-weight: 500;
     font-size: large;
 }
+@media screen and (max-width: 167.9375em) {
+    .subscribe{
+        width:100%;
+        align-items: center;
+        justify-content: center;
+        /* display:none; */
+
+    }
+
+}
