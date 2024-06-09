@@ -19,7 +19,9 @@ function Icons() {
                 <img src={coasticon}alt="coast"/>
                 <img src={nairobiicon}alt="nairobi"/>      
                
-            </div></>
+            </div>
+            <h1>DESTINATIONS</h1>
+            </>
   )
 }
 

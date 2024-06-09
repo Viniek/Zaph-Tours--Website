@@ -1,5 +1,5 @@
 import news from "../../assets/news.svg"
-import formimg from "../../assets/form.jpeg"
+import formimg from "../../assets/form.jpg"
 import "./News.css"
 function News() {
   return (
@@ -9,9 +9,9 @@ function News() {
         </section>
 
         <div className="subscribe">
-        <section>
+        {/* <section>
             <img src={news} alt="Join us" />
-        </section>
+        </section> */}
 
         <form className="form">
         <div className="formitem">
@@ -19,7 +19,7 @@ function News() {
         <input type="text" className="name"  placeholder="Full Name"/>
         </div>
 
-        {/* ****************** */}
+        {/* Formitem */}
         <div className="formitem">
         <label htmlFor="email">Email</label>
         <input type="email" className="email" placeholder="Your email" />

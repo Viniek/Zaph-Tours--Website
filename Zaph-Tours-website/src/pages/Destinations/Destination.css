@@ -6,9 +6,7 @@
     justify-content: center;
     gap: 2rem;
     margin-top: 3rem;
-    border: 2px solid;
     padding: .7rem;
-
     animation: myAnim 2s ease 0s 1 normal forwards;
 }
 
@@ -64,7 +62,7 @@
 .tsavo{
     width: 30rem;
     padding: 1rem;
-    border: solid 2px;
+    
     box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
 -webkit-box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
 -moz-box-shadow: 12px 13px 16px 0px rgba(240,59,20,0.75);
@@ -90,11 +88,12 @@
     flex-direction: row;
     justify-content: center;
     gap: 2rem;
-    margin-top: 3rem;
-    border: 2px solid;
+    margin-top: 3rem;   
     padding: .7rem; 
-
     animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.destination2 p{
+	border-bottom: 1px solid orange;
 }
 
 

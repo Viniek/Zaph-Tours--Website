@@ -1,122 +1,76 @@
-.Top{
-  display:flex ;
+.Top {
+  display: flex;
   flex-direction: row;
   max-width: 100%;
   justify-content: center;
-  height:16vh;
-  /* height: 100%; */
-  
-  /* flex-direction: row; */
-  /* width:3rem; */
+  height: 16vh;
 }
-.orange{
+
+.orange {
   background-color: orangered;
   align-items: left;
-  height:10vh;
+  height: 10vh;
   width: 80%;
-  color:orangered;
-  margin-top: .8%;
+  color: orangered;
+  margin-top: 0.8%;
 }
-.topleft{
-  display:flex;
+
+.topleft {
+  display: flex;
   flex-direction: row;
-  border:3px solid green;
-  padding:3rem;
-  padding-top:0.1%;
+  border: 3px solid green;
+  padding: 3rem;
+  padding-top: 0.1%;
   justify-content: center;
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   align-items: left;
-
-}
-.topleft img{
-  /* margin-bottom: %; */
-  padding:2%;
 }
 
+.topleft img {
+  padding: 2%;
+}
 
-/* .header{
+.header {
   display: flex;
-  justify-content:right;
-  gap:2.8rem;
-  background-color:orangered;
-  margin-top: .8%;
- height:10vh;
+  justify-content: right;
+  gap: 2.8rem;
+  background-color: orangered;
+  margin-top: 0.8%;
+  height: 10vh;
   align-items: center;
-  color:rgba(255,255,255);
-  min-width: 75%;
-   /* margin-left:10rem; */
-    */
-/* } */
-.p1 link{
-  text-decoration: none;
+  color: rgba(255, 255, 255);
+  min-width: 60%;
 }
-.nav_list{
-  display:flex;
+
+.nav_list {
+  display: flex;
   flex-direction: row;
   justify-content: center;
-  gap:1rem;
+  gap: 1rem;
   background-color: orangered;
   padding-left: 20rem;
   list-style: none;
-  
 }
-.nav_list li{
+
+.nav_list li {
   text-decoration: none;
 }
-.p2:hover{
+
+.p1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.p2:hover {
   background-color: orange;
-  color:white;
+  color: white;
   padding: 5px;
   border-radius: 10%;
 }
-.header a{
-  color:white;
+
+.header a {
+  color: white;
   text-decoration: none;
-}
-.navhover:hover{
-  display:grid;
-  flex-direction: row;
-}
-.navhovericons{
-  display:flex;
-  flex-direction: row;
-  
-}
-.navhover1{
-  display:grid;
-}
-
-.p1 :hover{
-  background-color: purple;
-  padding:10px;
-  border-radius:10%;
-  color:orange;
-}
-.p2{
-  background-color: purple;
-  color:orange;
-  height:7vh;
-  display:flex;
-  flex-direction: row;
- justify-content: center;
- padding: 8px 2px;
- margin-top: .8rem;
- /* margin-left: -17px;
- margin-right:28px; */
- /* padding-top: 1%;
- padding-right: 10px; */
-}
-
-.orange, .topleft, .header {
-  transition: opacity 0.3s;
-}
-.nav {
-  position: relative;
-  
-}
-
-.nav img {
-  cursor: pointer;
 }
 
 .navhover {
@@ -126,60 +80,91 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); 
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  z-index: 1000; 
-  
-}
-.navdestinations{
-  display:flex;
-  flex-direction: column;
-  margin-left:20rem;
-  gap:10px;
-  font-size:medium;
-}
-.navdestinations li{
-  text-decoration: none;
+  z-index: 1000;
 }
 
+.navhovericons {
+  display: flex;
+  flex-direction: row;
+}
+
+.navhover1 {
+  display: grid;
+}
+
+.p1:hover {
+  background-color: purple;
+  padding: 10px;
+  border-radius: 10%;
+  color: orange;
+}
+
+.p2 {
+  background-color: purple;
+  color: orange;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 2px;
+  margin-top: 0.8rem;
+}
+
+.orange, .topleft, .header {
+  transition: opacity 0.3s;
+}
+
+.nav {
+  position: relative;
+}
+
+.nav img {
+  cursor: pointer;
+}
 
 .nav:hover .navhover {
   display: flex;
 }
 
 .navhover:hover {
-  display: flex; 
+  display: flex;
   background-color: navy;
-  color:gold;
-  
+  color: gold;
 }
 
 .nav:hover ~ .orange,
 .nav:hover ~ .topleft,
 .nav:hover ~ .header {
-  opacity: 0;
+  opacity: 1;
 }
 
-/* section body */
-
-
-
-
-/* about */
-
-/* Responsiveness */
-@media screen and (max-width:49.75em) {
-  .Top{
-      height:4572px;   
-  }    
+.navdestinations {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rem;
+  gap: 10px;
+  font-size: medium;
 }
+
+.navdestinations li {
+  text-decoration: none;
+  color: inherit;  /* Ensure list items have the same color as the parent */
+}
+
+@media screen and (max-width: 49.75em) {
+  .Top {
+    height: 4572px;
+  }
+}
+
 @media screen and (max-width: 46.875em) {
-  .header{
+  .header {
     flex-wrap: wrap;
     justify-content: center;
   }
 }
-  

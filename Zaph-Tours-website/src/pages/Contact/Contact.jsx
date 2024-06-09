@@ -14,11 +14,11 @@ function Contact(){
             <div className="contactsection">
                 
                 <form>
-                <div className="headingform"><h1>Reach out to us</h1></div>
+                <div className="headingform"><h1>Get in Touch</h1></div>
                 
                 <div className="topinputs">
                     
-                    <input type="text" placeholder="Full Name*"  required/>
+                    <input type="text" placeholder="Your Full Name*"  required/>
                     <input type="email"  placeholder="Email Adress*" required/>
                 </div>
 

@@ -1,6 +1,6 @@
 
 import "./Hero.css"
-import backgroundVideo from '../../assets/home.mp4';
+import backgroundVideo from '../../assets/background.mp4';
 
 function Hero() {
   return (

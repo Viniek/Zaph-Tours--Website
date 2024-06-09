@@ -15,19 +15,19 @@ function Details({icon,details}) {
     <div className="oucontactsection">
 
     <section className="ourinfo">
-    <p>{icon=<IoLocationSharp/>} {details="Bazaar plaza, Moi Avenue, Nairobi, Nairobi County"}</p>
-    <p>{icon=<FaPhoneFlip/>} {details="+254768163608"}</p>
+    <p>{icon=<IoLocationSharp/>} {details="Nyeri, Nyeri County"}</p>
+    <p>{icon=<FaPhoneFlip/>} {details="+254743209259"}</p>
     <p>{icon=<CiClock2/>} {details="Open 8am-5pm Working Days"}</p>
-    <p>{icon=<MdEmail/>} <Link to={details="josephkarimambugua@gmail.com"}>zaphtours.travels.com</Link></p>
+    <p>{icon=<MdEmail/>} <Link to={details="njerivictory52@gmail.com"}>zaphtours.travels.com</Link></p>
     </section>
 
 
     <div className="oursocials">
         <h3>Follow us on</h3>
-       <p> {icon=<FaInstagram/>} <Link to="https://github.com/Joseh254" target="blank">{details="Instagram"}</Link></p>
-       <p>{icon=<FaFacebook/>} <Link to="https://github.com/Joseh254" target="blank">{details="Facebook"}</Link></p>
-       <p>{icon=<FaLinkedinIn/>} <Link to="https://github.com/Joseh254" target="blank">{details="LinkedinIn"}</Link></p>
-       <p>{icon=<FaTwitter/>} <Link to="https://github.com/Joseh254" target="blank">{details="Twitter"}</Link></p>
+       <p> {icon=<FaInstagram/>} <Link to="https://github.com/Viniek" target="blank">{details="Instagram"}</Link></p>
+       <p>{icon=<FaFacebook/>} <Link to="https://github.com/Viniek" target="blank">{details="Facebook"}</Link></p>
+       <p>{icon=<FaLinkedinIn/>} <Link to="https://github.com/Viniek" target="blank">{details="LinkedinIn"}</Link></p>
+       <p>{icon=<FaTwitter/>} <Link to="https://github.com/Viniek" target="blank">{details="Twitter"}</Link></p>
     </div>
 
     </div>
