@@ -20,7 +20,7 @@ function Home(){
         <Icons/> 
         <Sites />
                
-        <Slides/>        
+               
         <News/>
         </>
     )

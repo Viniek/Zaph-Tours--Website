@@ -1,4 +1,5 @@
 import news from "../../assets/news.svg"
+import formimg from "../../assets/form.jpeg"
 import "./News.css"
 function News() {
   return (
