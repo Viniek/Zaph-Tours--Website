@@ -79,3 +79,9 @@
 .video-overlay p {
     font-size: 1.5rem;
 }
+@media screen and (max-width: 23.4375em){
+    .video{
+        display:none;
+        
+    }
+}
