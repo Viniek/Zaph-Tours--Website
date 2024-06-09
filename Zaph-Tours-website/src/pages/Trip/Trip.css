@@ -11,16 +11,22 @@
 
 .album{
     display:flex;
+    flex-direction: column;    
+    margin-top: 2rem;
+    gap:2rem;
+    justify-content: space-around;
+}
+.honeymoon{
+    display:flex;
     flex-direction: row;
     gap:2rem;
-    margin-top: 2rem;
 }
 .album1{
     border:1px solid orangered;
     padding:1rem;
     display: flex;
     flex-direction: column;
-    width:30%;
+    width:28%;
     border-radius: 5%;
 }
 .album2{
@@ -29,4 +35,49 @@
     display: flex;
     flex-direction: column;
     width:30%;
+}
+.family{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.adventure{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.cultural{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.safaris{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.ecotours{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.vacations{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.beach{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.retreats{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
+}
+.culinary{
+    display:flex;
+    flex-direction: row;
+    gap:2rem;
 }
