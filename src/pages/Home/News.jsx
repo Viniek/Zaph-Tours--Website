@@ -5,7 +5,7 @@ function News() {
   return (
     <div>
         <section className="newheading">
-            <h2>Subcsribe to our newsletter</h2>
+            <h2>Stay updated with us</h2>
         </section>
 
         <div className="subscribe">

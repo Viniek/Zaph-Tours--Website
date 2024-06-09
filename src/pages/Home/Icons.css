@@ -15,7 +15,7 @@
 }
 @media screen and (max-width: 102.625em) {
     .icons{
-        display:none;
+        /* display:none; */
         
     }
 }
