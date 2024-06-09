@@ -1,21 +1,58 @@
-/* viewsites */
-.viewsites{     
+/* Sites.css */
+.viewsites {
+    width: 100%;
     justify-content: space-between;
-}
-.viewsites1 ,.viewsites2{
+  }
+  
+  .viewsites1 {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
     justify-content: center;
-}
-.kenya{
-    display:flex;
+  }
+  
+  .kenya {
+    display: none;
     flex-direction: column;
-    border:2px solid orangered;
-    /* border-radius: 10%; */
-    width:30%;
-    margin-top: 2rem;  
-   
+    align-items: center;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 100%; /* Change width to 100% */
+    margin-top: 2rem;
+    position: relative;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+  }
+  @keyframes myAnim {
+	0% {
+		opacity: 1;
+		transform: scale(1);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(0.6);
+	}
 }
-.kenya img{
-   
-}
+
+  .kenya.active {
+    display: flex;
+  }
+  
+  .kenya img {
+    width: 60%;
+  }
+  
+  .kenya p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color for better visibility */
+    padding: 1rem; /* Add padding for better visibility */
+    border-radius: 5px; /* Add border radius for better aesthetics */
+  }
+  
+  .kenya:hover p {
+    opacity: 1;
+  }
+  

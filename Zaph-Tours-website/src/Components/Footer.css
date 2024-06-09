@@ -1,0 +1,17 @@
+.myfooter{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:.3rem;
+   
+}
+.myfooter{
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+}
+.footersocial{
+    display: flex;
+    flex-direction:row ;
+    gap:3rem;
+}
