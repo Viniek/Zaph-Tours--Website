@@ -146,4 +146,9 @@
 .album1:hover .hmtext, .album2:hover .hmtext {
     
 }
-
+@media screen and (max-width:51.25) {
+  .herotext{
+    display:none;
+    
+  }
+}
