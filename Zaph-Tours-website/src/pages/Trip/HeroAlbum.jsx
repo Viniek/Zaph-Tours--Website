@@ -14,12 +14,19 @@ import adventure2 from '../../assets/adventure2.jpeg';
 
 function HeroAlbum() {
   return (
+    <>
+
+    <section className='heroalbumtop'>
+<p>Plan a customized tour</p>
+    </section>
+    {/* album */}
     <section className='album'>
         <section className='honeymoon'>
 <div className='album1'>
     <img src={honeymoon1} alt="honeymoon"/>
     <p className='hmtext'>Embark on the journey of a lifetime with our exclusive honeymoon package. Celebrate your love in stunning destinations where
          every moment is designed to delight. Let us make your honeymoon the fairy tale you've always dreamed of.</p>
+         <h1>Honeymoon</h1>
 </div>
 {/* album2 */}
 <div className='album2'>
@@ -87,6 +94,7 @@ function HeroAlbum() {
 <section className="adventure">
 {/* album2 */}
 <div className='album2'>
+    
     <img src={cultural1} alt="cultural"/>
     <p className='hmtext'>Immerse yourself in the rich tapestry of global cultures with our exclusive cultural tours. Perfect for those who seek to understand and appreciate the world's diverse traditions, our tours offer deep dives into the heart of local customs and heritage. Experience the beauty of cultural exchange and connection</p>
 </div>
@@ -98,10 +106,11 @@ function HeroAlbum() {
 {/* album2 */}
 <div className='album2'>
     <img src={cultural3} alt="culture"/>
-    <p className='hmtext'>Engage with local communities, participate in traditional ceremonies, and savor authentic cuisine on our meticulously curated cultural tours. Our package includes knowledgeable guides, immersive activities, and behind-the-scenes access that bring each culture to life. Discover the stories and traditions that shape our world</p>
+    <p className='hmtext'>Take part in exhilarating activities like white-water rafting, mountain climbing, and wildlife safaris. Our adventure package includes expert guides, top-notch equipment, and all the support you need to conquer new heights. Embark on the adventure of a lifetime and create stories worth telling.</p>
 </div>
 </section>
     </section>
+    </>
   )
 }
 

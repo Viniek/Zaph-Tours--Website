@@ -1,83 +1,70 @@
 .hero{
-    background-image: url('../../assets/toursimg.webp');
-    padding:8rem;
+    background-image: url(../../assets/toursimg.jpg);
+    padding:2rem;
     background-repeat: no-repeat;
-    width:300rem;
-    border:2px solid red;
-    
+    width:100%;   
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+.herotext{
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+   /* background-color: black; */
+}
+
+.hero img{
+    width: 100%;
 }
 
 /* HeroAlbum */
-
-.album{
-    display:flex;
-    flex-direction: column;    
+.heroalbumtop{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%)
+}
+.album {
+    display: flex;
+    flex-direction: column;
     margin-top: 2rem;
-    gap:2rem;
     justify-content: space-around;
 }
-.honeymoon{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
-}
-.album1{
-    border:1px solid orangered;
-    padding:1rem;
+
+.honeymoon, .family, .adventure, .cultural {
     display: flex;
-    flex-direction: column;
-    width:28%;
-    border-radius: 5%;
-}
-.album2{
-    border:1px solid orangered;
-    padding:1rem;
-    display: flex;
-    flex-direction: column;
-    width:30%;
-}
-.family{
-    display:flex;
     flex-direction: row;
-    gap:2rem;
+    gap: 0; /* Remove gap to make images touch each other */
 }
-.adventure{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
+
+.album1, .album2 {
+    position: relative; /* Required for positioning the text */
+    flex: 1; /* Ensure all albums have equal width */
+    overflow: hidden;
+     /* Hide overflow for smooth hover effect */
 }
-.cultural{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
+
+.album1 img, .album2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the entire container */
+    display: block;
 }
-.safaris{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
+
+.hmtext {
+    position: absolute; /* Position text absolutely within the container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 1rem;
+    opacity: 0; /* Make text initially invisible */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    text-align: center; /* Center align the text */
 }
-.ecotours{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
+
+.album1:hover .hmtext, .album2:hover .hmtext {
+    opacity: 1; /* Show text on hover */
 }
-.vacations{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
-}
-.beach{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
-}
-.retreats{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
-}
-.culinary{
-    display:flex;
-    flex-direction: row;
-    gap:2rem;
-}
+
