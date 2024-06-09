@@ -6,7 +6,7 @@
     height: 70vh;
     justify-content: center;
     align-items: center;
-    
+    clip-path: polygon(0 0, 100% 1%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
 }
 .herotext{
     display:flex;
@@ -54,7 +54,7 @@
 }
 
 .album1 img, .album2 img {
-    width: 100%;
+    width:100%;
     height: 100%;
     object-fit: cover; /* Ensure images cover the entire container */
     display: block;
@@ -69,7 +69,7 @@
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
     padding: 1rem;
     opacity: 0; /* Make text initially invisible */
-    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
+    transition: opacity 2s ease; /* Smooth transition for hover effect */
     text-align: center; /* Center align the text */
 }
 
