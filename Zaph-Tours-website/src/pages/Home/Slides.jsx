@@ -1,84 +1,55 @@
-
 import React, { useState, useEffect } from 'react';
-import './Slides.css';
-import park from "../../assets/park.jpg"
-// import kenya from "../../assets/ kenya.jpg"
-import flamingo from "../../assets/flamingo.jpg"
-import kenyaa from "../../assets/kenyaa.jpg"
-import ruwenzori from "../../assets/ruwenzori.jpeg"
-import nai from "../../assets/nai.jpeg"
-import india from "../../assets/india.jpeg"
+import "./Sites.css";
+import mtkenya from '../../assets/mtkenya.jpg';
+import mtkilimanjaro from '../../assets/mtkilimanjaro.jpg';
+import lakenakuru from '../../assets/nakuru.jpg';
+import coast from '../../assets/coast.jpg';
+import tsavo from '../../assets/tsavo.jpg';
+import nairobipark from '../../assets/nairobi park.jpg';
 
-const images = [
-  
-  // { url: kenya, content: 'Experience the breathtaking beauty and adventure of Mt. Kenya, where every step takes you closer to nature\'s majestic wonders' },
-  { url: park, content: 'Explore the beatiful nature of Tsavo National park' },
-  {url:flamingo, content:'Explore the beatiful nature of lake Nakuru'},
-  {url:kenyaa, content:'Explore the beatiful nature of Mt. kenya'},
-  {url:ruwenzori, content:'Explore the beatiful nature of Mt.Ruwenzori'},
-  {url:nai, content:'Explore the beatiful nature of Nairobi National Park'},
-  {url:india, content:'Explore the beatiful nature of Coastal region in kenya'},
-  
+const slides = [
+  { src: mtkenya, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
+  { src: tsavo, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
+  { src: lakenakuru, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
+  { src: coast, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
+  { src: mtkilimanjaro, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
+  { src: nairobipark, text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus distinctio nihil quam deserunt veniam alias cum pariatur doloribus esse nulla, optio eos perspiciatis saepe cumque enim iure in, commodi eligendi." },
 ];
 
-const Slides = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+const Slideshow = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) =>
-        prevIndex === images.length - 1 ? 0 : prevIndex + 1
-      );
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
     }, 5000);
-
-    return () => clearInterval(interval); 
+    return () => clearInterval(interval);
   }, []);
 
-  const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const goToPrevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
-  };
-
   return (
-
-    <>
-
-    <section className='exploresection'>
-
-    <div className="slideshow">
-      {images.map((image, index) => (
-        <div
-          key={index}
-          className={`slide ${index === currentIndex ? 'active' : ''}`}
-          style={{ backgroundImage: `url(${image.url})` }}
-        >
-          <div className="content">
-            {image.content}
-          </div>
-        </div>
-      ))}
-      <button className="nav-button prev" onClick={goToPrevSlide}>&lt;</button>
-      <button className="nav-button next" onClick={goToNextSlide}>&gt;</button>
+    <div className='slideshow'>
+      <div className='kenya'>
+        <img src={slides[currentSlide].src} alt={`Slide ${currentSlide + 1}`} />
+        <p>{slides[currentSlide].text}</p>
+      </div>
     </div>
-
-
-    <div className='explore'>
-      <h1>lorem5</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-    </div>
-    </section>
-
-    </>
   );
 };
 
-export default Slides;
+function Sites() {
+  return (
+    <>
+      <section className='viewsites'>
+        <section className='viewsites1'>
+          <Slideshow />
+        </section>
+        <section className='viewsites2'>
+          <Slideshow />
+        </section>
+        <section className='form'></section>
+      </section>
+    </>
+  );
+}
+
+export default Sites;
