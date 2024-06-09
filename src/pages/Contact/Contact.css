@@ -110,3 +110,10 @@ form textarea {
     background-color: var(--secondary_color);
     transition: all.8s ease;
 }
+@media screen  and ( max-width:51.25em) {
+    .contactussection{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
